@@ -1,0 +1,131 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar{
+    color: white;
+    background-color: black;
+    font-size: 12px;
+    position: sticky;
+    top: 0%;
+    padding: 0%;
+    height: 60px;
+
+}
+
+.title p{
+    float: left;
+    margin: 15px 20px;
+
+
+}
+
+
+.nav-item{
+    float: right;
+    margin: 10px 20px;
+}
+
+.nav-item a{
+    text-decoration: none;
+    color:white ;
+    padding: 0% 10px;
+
+}
+
+.container{
+  background-color: #ddd;
+  padding:10px 30px;
+}
+
+.books-table, .registration-form{
+    background-color: #fff;
+    margin: 0px 20%;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.books-table:hover{
+     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+}
+
+.books-table h1, { 
+    padding: 10px 0px;
+}
+
+.books-table table{
+    width: 100%;
+}
+
+.books-table th.col{
+    text-align: left;
+}
+
+
+.books-table table,tr,td,th{
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+    padding: 5px 10px;
+
+}
+
+.ns-table{
+    margin: 12px 0px;
+
+}
+
+.registration-form .form-control{
+    margin: 10px 0px;
+}
+
+.registration-form label{
+    font-size: 12px;
+}
+.form-control input{
+    width: 100%;
+    height: 25px;
+    border: 1px solid #ddd;
+    padding: 2px 5px;
+    font-size: 10px;
+
+}
+
+
+.form-control input:focus{
+    background-color: rgb(56, 191, 236);
+}
+
+.submit-btn{
+    background-color: black;
+    color: white;
+
+    height: 40px!important;
+    width: 102%!important;
+
+}
+.submit-btn:hover{
+    background-color: #fff;
+    color: black;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+.top-btn{
+    background-color: #fff;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
